@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    font-family: "Noto Sans Mono", serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: #080808;
+    background-size: 15px 15px;
+    background-image:
+    linear-gradient(to right, #232d33 1px, transparent 1px),
+    linear-gradient(to bottom, #232d33 1px, transparent 1px);
+    
+}
+
+header {
+    padding : 2em;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.h_title2,.h_title1, .myself_part_item {
+    color: white;
+}
+
+.h_title1 {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.h_title2 {
+    font-size: 2em;
+}
+
+.grey_bar {
+    height: 3px;
+    width: 100%;
+    background: rgb(142, 142, 142);
+}
+.myself_part {
+    display: flex;
+    background: rgb(43, 43, 43);
+    padding: 3em;
+}
+
+.photo-profil {
+    padding: 0 4em 0 0;
+}
+
+
+.icon-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vert_bar_white {
+    background-color: white;
+    height: 25px;
+    width: 2px;
+    margin: 3em;
+}
+
+.comp_part{
+    background: rgb(43, 43, 43);
+}
+
+.comp_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.comp_txt {
+    font-size: 0.25em;
+    text-align: center;
+    padding: 1em 0 0 0;
+    color: white;
+}
+
+.comp_span {
+    padding: 1em 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp_title{
+    color: white;
+    padding: 0.5em 0 0 1em;
+
+}
+
+.span-yel {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f6c90e, 0 0 30px #f6c90e,
+    0 0 40px #f6c90e, 0 0 50px #f6c90e, 0 0 60px #f6c90e;
+    animation: glow 3.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f6c90e, 0 0 30px #f6c90e,
+        0 0 40px #f6c90e, 0 0 50px #f6c90e, 0 0 60px #f6c90e;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fcdf69, 0 0 30px #fcdf69,
+        0 0 40px #fcdf69, 0 0 50px #fcdf69, 0 0 60px #f6c90e, 0 0 70px #f6c90e;
+    }
+   }
+
+   
+a{
+    color: #fff;
+}
+
+.img {
+    color: #000000;
+    margin: 5em 2em 5em 2em;
+    padding: 1em;
+    background-color: #bdbdbd;
+    border-radius: 1em;
+}
+
+.carousel-part {
+    margin: 2em 0 2em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.carousel-item {
+    width: 35em;
+    height: 15em;
+    padding: 0.25em;
+    margin: 1em 0 1em 0;
+}
+
+.a {
+    background-image: url('../www/logo_sphinx.png');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.b {
+    background-image: url('../www/logo_ms_access.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.c {
+    background-image: url('../www/logo-powerbi.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.d {
+    background-image: url('../www/Logo-Oracle.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.e {
+    background-image: url('../www/logo_talaxie.webp');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.f {
+    background-image: url('../www/Flag_of_France.svg.webp');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition-duration: 0.25s;
+}
+
+.img:hover {
+    transition-duration: 0.25s;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+

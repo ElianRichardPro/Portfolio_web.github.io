@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+Mono:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+body {
+    margin : 0;
+    padding: 0;
+    font-family: "Noto Sans Mono", serif;
+   
+}
+
+body {
+    /*background-attachment: fixed;*/
+    background-color: #080808;
+    /*background-size: 15px 15px;
+    background-image:
+    linear-gradient(to right, #232d33 1px, transparent 1px),
+    linear-gradient(to bottom, #232d33 1px, transparent 1px);*/
+    
+}
+
+header {
+    padding : 2em;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.icon-nav {
+  font-size: 3em;
+  background: rgba(43, 43, 43,0.3);
+  border-radius: 2em;
+  width: 35%;
+  margin: 0.3em auto 0 auto;
+}
+
+.h_title2,.h_title1, .myself_part_item {
+    color: white;
+}
+
+.h_title1 {
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.h_title2 {
+    font-size: 2em;
+    margin: 0.25em 0 1em 0;
+}
+
+.grey_bar {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(-45deg, #2b00ff, #3e44ff, #1592ff, #31f8ff);
+	animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 50% 50%;
+	}
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+.myself_part {
+    display: flex;
+    background: rgba(43, 43, 43,0.3);
+    padding: 3em;
+    align-items: center;
+}
+
+.photo-profil {
+    padding: 0 4em 0 0;
+    width: 22.5em;
+    height: 17.21em; 
+}
+
+
+.icon-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vert_bar_white {
+    background-color: white;
+    height: 25px;
+    width: 2px;
+    margin: 0.5em;
+}
+
+.comp_part{
+    background: rgba(43, 43, 43,0.3);
+}
+
+.comp_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.comp_txt {
+    font-size: 0.25em;
+    text-align: center;
+    padding: 1em 0 0 0;
+    color: white;
+}
+
+.comp_span {
+    padding: 1em 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.comp_title{
+    color: white;
+    padding: 0.5em 0 0 1em;
+    margin: 0;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+   
+a{
+    color: #fff;
+}
+
+.img {
+    color: #000000;
+    margin: 5em 2em 5em 2em;
+    padding: 1em;
+    background-color: #bdbdbd;
+    border-radius: 1em;
+}
+
+.carousel-part {
+    margin: 2em 0 2em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.carousel-item {
+    width: 35em;
+    height: 15em;
+    padding: 0.25em;
+    margin: 1em 0 1em 0;
+}
+
+.a {
+    background-image: url('../www/logo_sphinx.png');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.b {
+    background-image: url('../www/logo_ms_access.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.c {
+    background-image: url('../www/logo-powerbi.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.d {
+    background-image: url('../www/Logo-Oracle.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.e {
+    background-image: url('../www/logo_talaxie.webp');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.f {
+    background-image: url('../www/Flag_of_France.svg.webp');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    text-align: center;
+    background-size: cover;
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition-duration: 0.25s;
+}
+
+.img:hover {
+    transition-duration: 0.25s;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+.bio {
+    text-align: justify;
+}
+
+.contact_part {
+    margin: 2em 5em 2em 5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 2px solid #31f8ff;
+    padding: 1em;
+}
+
+.form-part {
+    padding: 0.1em;
+}
+
+
+label {
+    margin : 0 0 0 0.5em;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+input[type=text], input[type=email], textarea{
+    background-color: rgba(43, 43, 43,0.3);
+    width: 100%;
+    padding: 1em 2em;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0 0 0 1em;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #000000;
+    transition: 0.25s;
+}
+
